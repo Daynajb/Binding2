@@ -1,0 +1,1045 @@
+body {
+    background-image: url("05.jpg");
+
+    background-color: #E4D8D0;
+    width: 100vw;
+
+    background-size: 100vw;
+    background-position: center center;
+    background-repeat: 100;
+
+    margin: auto;
+    padding: 0;
+}
+
+
+.button {
+    background-color: none;
+    color: none;
+    border: none;
+}
+
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    padding-top: 20px;
+    position: fixed;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 50%;
+    margin-top: 30px;
+    background-image: url("05.jpg");
+    background-color: #E4D8D0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+
+}
+
+.navo {
+    display: flex;
+    justify-content: center;
+    color: none;
+}
+.topnav {
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    position: fixed;
+    overflow: hidden;
+    background-color: #1E1D1D;
+}
+
+.topnav a {
+    margin-right: 6%;
+    margin-bottom: 17px;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+     display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.topnav a:hover {
+
+     color: #FF6332;
+}
+
+.topnav a.active {
+    background-color: #1E1D1D,
+        color: #f6f6f6;
+}
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.813rem;
+    font-weight: 700;
+}
+
+.topnav-right {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f6f6f6;
+    margin-right: 40px;
+}
+
+
+
+.firstdiv {
+    margin-top: 50px;
+}
+
+
+
+/*Responsive Nav//
+///////////////////////////////////////////////////////////*/
+
+.smallbar {
+    background-color: #1E1D1D;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+/*R//
+///////////////////////////////////////////////////////////*/
+
+.bg {
+    background-image: url("OrangeAfrikan_Transparent%20copy.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -260px;
+}
+
+.ep {
+    max-width: 70%;
+    margin-top: -450px;
+    margin-left: 5%;
+}
+
+.subhead {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
+
+.subheada {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: -250px;
+    margin-bottom: 100px;
+    max-width: 90%;
+}
+
+
+.subhead2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    max-width: 80%;
+}
+
+.subheadread {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.readheadings {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 25%;
+    color: #FF7038;
+    margin-top: 200px;
+    margin-bottom: 45px;
+    max-width: 50%;
+
+
+}
+
+
+
+
+.reading1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: black;
+    margin-top: 95px;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 45px;
+
+}
+
+.hometext {
+    margin-left: 5%;
+
+}
+
+.intro {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 40%;
+    text-align: left;
+    width: 100%;
+
+
+}
+
+
+
+.homepageline {
+
+
+    width: 130%;
+    height: 1px;
+    background-color: black;
+
+
+
+}
+
+
+.readpageline {
+
+
+    width: 95%;
+    height: 1px;
+    background-color: black;
+
+
+
+}
+
+.parent {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.homepright {
+    margin-left: 3%;
+}
+
+.article {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF7038;
+    margin-top: 46px;
+
+
+}
+
+.subcap {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    margin-bottom: 46px;
+}
+
+.space {
+    height: 50px;
+}
+
+
+.arrow {
+    height: 44px;
+    width: 44px;
+    margin-left: 1100%;
+    margin-top: 60px;
+
+
+}
+
+.arrow2 {
+    height: 44px;
+    width: 44px;
+    margin-left: 1000%;
+    margin-top: 60px;
+
+
+}
+
+.art {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.chaphead {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 96px;
+    line-height: 109%;
+    margin-top: -90px;
+    font-weight: 700;
+    max-width: 550%;
+    margin-bottom: 125px;
+
+
+}
+
+.chaphead2 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 96px;
+    line-height: 109%;
+    margin-top: -90px;
+    font-weight: 700;
+    max-width: 80%;
+    margin-bottom: 125px;
+
+
+}
+
+.author {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: -120px;
+    margin-bottom: 100px;
+}
+
+
+.caption {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    max-width: 80%;
+}
+
+
+
+
+
+
+    .oline {
+        width: 0%;
+        height: 0px;
+        margin-top: 0px;
+        background-color: none;
+    }
+
+
+/*COLOPHON*/
+
+.parent{display: flex;
+    justify-content:flex-start;
+}
+
+
+.baby{display: flex;
+    justify-content:flex-start;
+    padding-right: 100px;    
+      
+}
+
+.aboutmedisplay   {font-weight: 700;
+    font-weight: 700;
+    font-size: 6.4375rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+   color:black;
+}
+.aboutmeread1 {
+    font-weight: 100;
+    font-size: 1.25rem;
+ color:black;
+    font-family: 'Space Grotesk', sans-serif;
+
+    line-height: 2rem;
+  
+    margin-top: 20px;
+
+   
+}
+
+
+.aboutmeread {
+    font-weight: 100;
+    font-size: 1.25rem;
+     color:black;
+    font-family: 'Space Grotesk', sans-serif;
+    /* margin-left: 130px;*/
+    position: relative;
+    line-height: 2rem;
+    /*padding-top: 390px;*/
+    float: right;
+    margin-top: 30px;
+    display: inline;
+        margin-left: 30px;
+}
+
+.aboutmereada {
+    font-weight: 100;
+    font-size: 1.25rem;
+    color:black;
+    font-family: 'Space Grotesk', sans-serif;
+    position: relative;
+    line-height: 2rem;
+    /*padding-top: 390px;*/
+    float: right;
+    
+    display: inline;
+        margin-left: 30px;
+}
+
+
+.aboutmesub   {font-weight: 700;
+    font-size: 1.25rem;
+    color:black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 20px;
+   margin-bottom: -20px;
+    margin-left: 30px;
+}
+
+
+.firstdiv {
+    margin-top: 50px;
+}
+
+/*MEDIA QUERIES*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/*//*////////////*/
+
+@media screen and (max-width: 900px) {
+    .parent {
+    display: block;
+        
+    }
+    
+    .art {
+        display: block;}
+        
+        .homepright {
+  display: block;
+      justify-content: flex-end;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  
+
+    .bg {
+        background-image: url("BLACKAfrikan_Transparent.png");
+        /*height: 80vh;*/
+        max-width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -100px;
+        background-blend-mode: multiply;
+        mix-blend-mode: multiply;
+    }
+    
+
+    .mobile-size {
+        max-width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+    .hide-when-big {
+        display: block;
+
+    }
+
+
+    .hide-when-small {
+        display: none;
+    }
+
+
+   .subheada {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: -0px;
+    margin-bottom: 0px;
+    max-width: 90%;
+}
+
+   
+      h4 {
+        
+        font-weight: 700;
+        font-size: 24px;
+       
+
+    }
+    
+   
+    
+
+    .ep {
+        max-width: 90%;
+        margin-top: 10px;
+        margin-left: 2%;
+    }
+
+    .oline {
+        width: 90%;
+        height: 1px;
+        margin-top: 20px;
+        background-color: #FF7038;
+    }
+
+
+    .subhead {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        text-align: left;
+        color: black;
+        margin-top: -15px;
+        margin-bottom: 25px;
+        max-width: 90%;
+       
+    }
+.hometext {
+    margin-left: 1%;
+
+}
+    
+    
+.intro {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 85%;
+    text-align: left;
+ 
+    margin-left: 2%;
+    margin-top: 30px;
+    
+}
+    
+ 
+.parent {
+    display: block;
+    }
+    
+    
+.baby{display: block;
+   /* justify-content:flex-start;*/
+    padding-right: 10px;   
+    padding-left: 0px;
+     justify-content:center;
+      
+}
+    
+    .aboutmeread1 {
+    font-weight: 100;
+    font-size: 1.25rem;
+ color:black;
+    font-family: 'Space Grotesk', sans-serif;
+line-height: 2rem;
+    margin-top: 20px;
+
+   
+}
+    
+    .aboutmeread {
+    font-weight: 100;
+    font-size: 1.25rem;
+     color:black;
+    font-family: 'Space Grotesk', sans-serif;
+    /* margin-left: 130px;*/
+    position: relative;
+    line-height: 2rem;
+    /*padding-top: 390px;*/
+    float: right;
+    margin-top: 30px;
+    display: inline;
+        margin-left: 0px;
+}
+  
+    .aboutmesub   {font-weight: 700;
+    font-size: 1.25rem;
+    color:black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 20px;
+   margin-bottom: -20px;
+    margin-left: 0px;
+}
+    
+    
+.aboutmereada {
+    font-weight: 100;
+    font-size: 1.25rem;
+    color:black;
+    font-family: 'Space Grotesk', sans-serif;
+    position: relative;
+    line-height: 2rem;
+    /*padding-top: 390px;*/
+    float: right;
+    
+    display: inline;
+        margin-left: 00px;
+}
+
+
+    
+    .homepageline {
+    width: 90%;
+        margin-top: 30px;
+    height: 1px;
+    background-color: black;
+}
+    
+    .article {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FF7038;
+    margin-top: 46px;
+}
+    
+    
+.subcap {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    margin-bottom: 46px;
+    max-width: 55%;
+    margin-top: -20px;
+}
+    
+    .arrow {
+    height: 44px;
+    width: 44px;
+    margin-left: 130px;
+    margin-top: 60px;
+        
+
+
+}
+
+.arrow2 {
+    height: 44px;
+    width: 44px;
+     margin-left: 110px;
+    margin-top: 60px;
+
+
+}
+    
+    
+.subheadread {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: 120px;
+    margin-bottom: 100px;
+        padding-left: 3%;
+}
+    .chaphead {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 50px;
+    line-height: 100%;
+    margin-top: -90px;
+    font-weight: 700;
+    max-width: 550%;
+    margin-bottom: 50px;
+            padding-left: 3%;
+
+
+}
+    .reading1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    color: black;
+    margin-top: -200px;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 45px;
+        padding: 3%;
+
+}
+    
+    .caption {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    max-width: 80%;
+            padding: 3%;
+}
+
+    .readheadings {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin:0px;
+    color: #FF7038;
+         padding-left: 3%;
+            max-width: 100%;
+}
+    
+    .space {
+    height: 1px;
+        padding: 1px;
+}
+    
+    .chaphead2 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 50px;
+    line-height: 100%;
+    margin-top: -90px;
+    font-weight: 700;
+    max-width: 90%;
+    margin-bottom: 50px;
+        padding-left: 3%;
+
+}
+    
+    .author {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: -40px;
+    margin-bottom: 100px;
+            padding-left: 3%;
+}
+    
+    .subhead2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: #FF7038;
+    margin-top: 20px;
+    margin-bottom: 00px;
+    max-width: 90%;
+        padding: 3%;
+}
+    
+}
+
+
+:root {
+    --body-copy: 16px;
+    --page-spacing: 24px;
+
+    --main-heading: calc(var(--body-copy) * 3);
+    --sub-heading: calc(var(--body-copy) * 1.5);
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --body-copy: 20px;
+        --page-spacing: 48px;
+
+        --main-heading: calc(var(--body-copy) * 4);
+        --sub-heading: calc(var(--body-copy) * 2);
+    }
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--body-copy);
+    background-color: #FAF7F0;
+}
+
+body > * {
+    padding: var(--page-spacing);
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--page-spacing) * 2);
+}}
+
+/************************************************MEDIA QUERIES *********************** ***********************************************/
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav-right {
+        float: none;
+        display: block;
+    }
+
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .navbar{visibility: hidden;
+    }
+    .navo{visibility: hidden;
+    }
+    .topnav-r{visibility: hidden;
+    }
+    #navbar.topnav{visibility: hidden;
+    }
+
+
+}
+    
+  /*  .navbar{visibility: hidden}
+}
+*/
+
+@media screen and (max-width: 1200px) {
+    [data-nc-base="mobile-bar"] {
+        display: block !important;
+    }
+.Header-nav--primary {
+    display: none !important;
+  }
+  .Header--top {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navh4{ visibility: hidden;
+   }
+
+
+/*/////////////////////MEDIA QUERIES responsive Navbar////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*/////////////////////MEDIA QUERIES 768//////////////////*/
+
+@media only screen and (max-width: 768px) {
+   
+  .navh4{ visibility:visible;
+       background: none;
+        border-style: none;
+        border: none;
+       padding: 0px;
+       width: 60px;
+     
+      
+   }
+    
+          .closebtn {
+             visibility: visible;
+          background-color: #1e1e1e;
+   
+        border-style: none;
+        border: none;
+        width: 60px;
+       color: #1e1e1e;
+        text-align: center;
+        margin-top: 6px;
+        position: relative;
+        max-width: 20px;
+        border-style: none;
+        border: none;
+        
+    }
+    
+      .button{border: none;
+        background-color: #1e1e1e;
+          color: #1e1e1e;
+        border-width: 0px;
+          background: #1e1e1e;
+          
+        
+    }
+    .mobile-size {
+        max-width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+    .hide-when-big {
+        display: block;
+
+    }
+
+
+    .hide-when-small {
+        display: none;
+    }
+
+
+   
+
+    .burger {
+        position: fixed;
+        padding-top: 20px;
+        padding-bottom: 8px;
+        padding-left: 75vw;
+        padding-right: 0vw;
+        z-index: 1;
+      /*  background-color:#1E1D1D; */
+       
+    }
+    
+     .myNav{/*height: 60vh;*/
+    color: none;
+         visibility: hidden;
+    
+    }
+
+
+   
+
+    .overlay {
+        height: 0%;
+        width: 100vw;
+        margin-left: -15px;
+        position: fixed;
+        z-index: 2;
+        overflow-x: hidden;
+        transition: 0.5s;
+        border-style: solid;
+        border-width: 0px 0px 1px 0px;
+        margin-top: -2px;
+    }
+
+    .overlay-content {
+        position: relative;
+         height: 70%;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        margin-top: 14px;
+        color: #1E1D1D;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .overlay a {
+       
+        text-decoration: none;
+        font-size: 20px;
+        color: #1E1D1D;
+        display: block;
+        transition: 0.3s;
+       
+    }
+
+    h4 {
+         font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        font-size: 24px;
+        color: #f6f6f6;
+
+    }
+
+    .menubutton {
+        color: #f6f6f6;
+         font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        font-size: 22px;
+        padding-top: 6px;
+        height: 50px;
+        margin-top: 2px;
+    }
+
+   
+    .closebtn {
+       
+        text-align: center;
+        /*margin-top: 6px;*/
+        position: relative;
+        max-width: 20px;
+        border-style: none;
+        
+    }
+
+
+}
+
+  
+
